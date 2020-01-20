@@ -1,0 +1,162 @@
+*{
+	padding: 0;
+
+	list-style: none;
+}
+html,body{
+	width: 100%;
+	height: 900px;
+	min-width: 1170px;
+	margin: 0;
+}
+a{	
+	text-decoration: none;
+    color: white;
+}
+@font-face{
+	font-family: mvboli;
+	src: url(mvboli.ttf);
+	font-family: impact;
+	src: url(impact-2.ttf);
+	font-family:  AcuminPro-Bold;
+	src: url(AcuminPro-Bold.ttf);
+	font-family: MYRIADPRO-BOLDIT;
+	src: url(MYRIADPRO-BOLDIT.OTF);
+}
+.daohang{
+	width: 100%;
+	height: 70px;
+	background-color: #383838;
+	position: fixed;
+	z-index: 100;
+}
+.daohang_zhuye{
+	font-family: mvboli;
+	color: white;
+	font-size: 28px;
+	font-weight: 100;
+	margin-left: 3%;
+}
+.tou{
+	font-family: MYRIADPRO-BOLDIT;
+	font-weight: normal;
+}
+.wenben1{
+	position: absolute;
+    left: 17%;
+    font-size: 10px;
+    color: #ccc;
+    top: 50px;
+}
+.daohanglan{
+	position: relative;
+}
+.liebiao{
+	position: relative;
+	float: right;
+	top: -75px;
+}
+.choice{
+	float: left;
+	color: white;
+	font-family: AcuminPro-Bold;
+	font-size: 20px;
+	cursor: pointer;
+	margin-right: 30px;
+	font-weight: 900;
+}
+.wenben2{
+	position: relative;
+	width: 100%;
+	height: 70px;
+    top: 70px;
+    text-align: center;
+    font-family: mvboli;
+    font-size: 40px;
+    background-color: #9e9e9e;
+} 
+.wenben3{
+	position: relative;
+	top: 70px;
+	width: 100%;
+	text-align: center;
+}
+.form{
+	width: 430px;
+	margin: 0 auto;
+	position: relative;
+}
+.xing{
+	width: 180px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #ccc
+}
+.ming{
+	width: 180px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    margin: 0px -20px 0px 25px;
+}
+.guojia{
+	margin: 5px 0 5px 25px;
+	float: left;
+}
+.diqu{
+	width: 370px;
+    height: 30px;
+}
+.zhanghu{
+	width: 370px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin: 25px 0px 0px;
+}
+.zhuyi{
+	float: left;
+    margin: 5px 0px 5px 25px;
+}
+.mima{
+	width: 370px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+.gouxuan{
+	float: left;
+    position: absolute;
+    top: 230px;
+    left: 6%;
+}
+}
+.wenben4{
+    width: 350px;
+    font-size: 20px;
+    text-align: initial;
+    left: 15%;
+    position: relative;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    font-family: AcuminPro-Bold;
+    background-color: #9e9e9e;
+    border: 1px;
+    border-radius: 18px;
+    cursor: pointer;
+}
+.wenben5{
+    width: 400px;
+    font-size: 10px;
+    font-weight: 200;
+    margin: 0 auto
+}
+.wenben6{
+	width: 300px;
+    float: right;
+    top: 100px;
+    position: relative;
+}

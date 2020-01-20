@@ -1,0 +1,213 @@
+*{
+	padding: 0;
+
+	list-style: none;
+}
+html,body{
+	width: 100%;
+	height: 900px;
+	min-width: 1170px;
+	margin: 0;
+}
+a{  
+    text-decoration: none;
+    color: white;
+}
+@font-face{
+	font-family: mvboli;
+	src: url(mvboli.ttf);
+	font-family: impact;
+	src: url(impact-2.ttf);
+	font-family:  AcuminPro-Bold;
+	src: url(AcuminPro-Bold.ttf);
+	font-family: MYRIADPRO-BOLDIT;
+	src: url(MYRIADPRO-BOLDIT.OTF);
+}
+.zhuce{
+	text-align: center;
+	font-family: AcuminPro-Bold;
+	font-size: small;
+	font-weight: 900;
+	width: 100%;
+	height: 20px;
+	position: fixed;
+	background-color: #707070;
+	z-index: 101;
+}
+.x{
+    float: right;
+    position: relative;
+    right: 1%;
+    color: white;
+    bottom: 25px;
+    font-size: 20px;
+    font-weight: 100;
+    cursor: pointer;
+}
+.daohang{
+	width: 100%;
+	height: 70px;
+	background-color: #383838;
+	position: fixed;
+	z-index: 100;
+}
+.daohang_zhuye{
+	font-family: mvboli;
+	color: white;
+	font-size: 28px;
+	font-weight: 100;
+	margin-left: 3%;
+}
+.tou{
+	font-family: MYRIADPRO-BOLDIT;
+	font-weight: normal;
+}
+.daohanglan{
+	position: relative;
+}
+.liebiao{
+	position: relative;
+	float: right;
+	top: -75px;
+}
+.choice{
+	float: left;
+	color: white;
+	font-family: AcuminPro-Bold;
+	font-size: 20px;
+	cursor: pointer;
+	margin-right: 30px;
+	font-weight: 900;
+} 
+.searchbox{
+    width: 580px;
+    height: 400px;
+    position: relative;
+    top: 200px;
+    margin: 0 auto;
+}
+.AJ1{
+    width: 70%;
+    margin: 0 auto;
+    z-index: -1;
+}
+.Jordan{
+	position: relative;
+    bottom: 355px;
+    left: 41%;
+}
+.container{
+	height: 70px;
+    width: 100%;
+    position: relative;
+    bottom: 355px;
+    margin-left: 40%;
+}
+.parent{
+	position: relative;
+
+}
+.search{
+    width: 300px;
+    height: 40px;
+    border-radius: 18px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+.btn{
+    height: 40px;
+    width: 40px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+.wenben1{
+	position: absolute;
+    top: 70px;
+    font-size: 50px;
+    font-family: impact;
+    left: 25%;
+    font-weight: 900;
+}
+.wenben2{
+	position: relative;
+    bottom: 260px;
+    left: 60%;
+    font-size: 50px;
+}
+.show{
+	font-family: mvboli;
+	font-weight: 100;
+}
+.wenben3{
+	font-size: 30px;
+	font-family: mvboli;
+	color: #ccc;
+    position: relative;
+    bottom: 60px;
+    left: 5%;
+}
+.buy{
+	transform: rotate(-6deg);
+    position: relative;
+    bottom: 77px;
+    left: 0%;
+}
+.sneakers{
+	transform: rotate(-6deg);
+    position: relative;
+    bottom: 100px;
+    left: 6%;
+}
+.pinpai{
+    width: 1200px;
+    height: 400px;
+    position: relative;
+    bottom: 185px;
+    margin: 0 auto;
+}
+.wenben4{
+	position: relative;
+    float: left;
+    font-family: AcuminPro-Bold;
+    font-weight: 900;
+    left: 1%;
+    font-size: 30px;
+}
+.AirJordan{
+    width: 200px;
+    height: 300px;
+    position: relative;
+    margin: 0;
+    float: left;
+}
+.p0{
+    position: relative;
+    left: 20%;
+}
+.wenben5{
+	position: relative;
+    font-family: AcuminPro-Bold;
+    font-size: 35px;
+    bottom: 40px;
+    width: 200px;
+    left: 5%;
+    height: 100px;
+    font-weight: 900;
+    text-align: center;
+}
+.brands{
+	position: relative;
+    width: 700px;
+    float: left;
+    bottom: 32px;
+}
+.p{
+	float: left;
+	margin: 1%
+}
+ul img{
+	width: 140px;
+	height: 70px;
+}

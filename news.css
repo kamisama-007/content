@@ -1,0 +1,179 @@
+*{
+	padding: 0;
+	list-style: none;
+}
+html,body{
+	width: 100%;
+	height: 900px;
+	min-width: 1170px;
+	margin: 0;
+}
+a{
+    color: white;
+	text-decoration: none;
+}
+@font-face{
+	font-family: mvboli;
+	src: url(mvboli.ttf);
+	font-family: impact;
+	src: url(impact-2.ttf);
+	font-family:  AcuminPro-Bold;
+	src: url(AcuminPro-Bold.ttf);
+	font-family: MYRIADPRO-BOLDIT;
+	src: url(MYRIADPRO-BOLDIT.OTF);
+}
+.more{
+	text-align: center;
+	font-family: AcuminPro-Bold;
+	font-size: small;
+	font-weight: 900;
+	width: 100%;
+	height: 20px;
+	position: fixed;
+	background-color: #707070;
+	z-index: 101;
+}
+.x{
+    float: right;
+    position: relative;
+    right: 1%;
+    color: white;
+    bottom: 25px;
+    font-size: 20px;
+    font-weight: 100;
+    cursor: pointer;
+}
+.daohang{
+	width: 100%;
+	height: 70px;
+	background-color: #383838;
+	position: fixed;
+	z-index: 100;
+}
+.daohang_zhuye{
+	font-family: mvboli;
+	color: white;
+	font-size: 28px;
+	font-weight: 100;
+	margin-left: 3%;
+}
+.tou{
+	font-family: MYRIADPRO-BOLDIT;
+	font-weight: normal;
+}
+.daohanglan{
+	position: relative;
+}
+.liebiao{
+	position: relative;
+	float: right;
+	top: -75px;
+}
+.choice{
+	float: left;
+	color: white;
+	font-family: AcuminPro-Bold;
+	font-size: 20px;
+	cursor: pointer;
+	margin-right: 30px;
+	font-weight: 900;
+} 
+.virgil{
+	position: relative;
+	top: 70px;
+	width: 55%;
+	left: 20%;
+}
+.box1{
+    width: 20%;
+    height: 600px;
+    position: relative;
+    float: left;
+    left: 2%;
+}
+.wenben1{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    float: left;
+    bottom: 355px;
+    font-size: 20px;
+}
+.goumai{
+	position: relative;
+	bottom: 20px;
+	font-size: 25px;
+	left: -5%;
+}
+.pinpai{
+	position: relative;
+    width: 300px;
+    float: left;
+    bottom: 350px;
+}
+.wenben2{
+    width: 226px;
+    font-size: 45px;
+    font-family: MYRIADPRO-BOLDIT;
+    font-weight: 900;
+    height: 400px;
+    text-align: center;
+    position: relative;
+    float: left;
+    left: -10%;
+    bottom: 500px;
+}
+.box2{
+	position: relative;
+    float: right;
+    right: 2%;
+    width: 16%;
+}
+.wenben3{
+    position: relative;
+    float: right;
+    bottom: 360px;
+    font-size: 40px;
+    right: 5%;
+    width: 200px;
+}
+.tengyuanhao{
+    position: relative;
+    width: 125%;
+    float: right;
+    right: 3%;
+    bottom: 360px;
+}
+.wenben4{
+	width: 200px;
+    height: 100px;
+    position: relative;
+    float: right;
+    bottom: 360px;
+    font-size: 20px;
+}
+.white{
+    width: 125%;
+    position: relative;
+    float: right;
+    bottom: 405px;
+}
+.wenben5{
+    position: relative;
+    float: right;
+    width: 255px;
+    height: 100px;
+    bottom: 430px;
+    font-size: 19px;
+    color: #9E9E9E;
+}
+.wenben6{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    float: left;
+    left: 21%;
+    bottom: 500px;
+    font-size: 40px;
+    font-weight: 900;
+}
